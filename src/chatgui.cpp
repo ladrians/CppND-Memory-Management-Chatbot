@@ -132,13 +132,8 @@ ChatBotPanelDialog::ChatBotPanelDialog(wxWindow *parent, wxWindowID id)
 
 ChatBotPanelDialog::~ChatBotPanelDialog()
 {
-    //// STUDENT CODE
-    ////
-
-    delete _chatLogic;
-
-    ////
-    //// EOF STUDENT CODE
+    // Task 0: Warm-Up, does not need to call the destructor
+    //delete _chatLogic;
 }
 
 void ChatBotPanelDialog::AddDialogItem(wxString text, bool isFromUser)
